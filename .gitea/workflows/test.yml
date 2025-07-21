@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   Explore-Gitea-Actions:
-    runs-on: ubuntu-latest
+    runs-on: linux_arm
     strategy:
       matrix:
         node-version: [23.x,24.x]
