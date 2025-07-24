@@ -20,7 +20,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: "Setup private key, certificate and access tokens"
-        uses: ./.github/actions/setup
+        uses: ./.gitea/actions/setup
         with:
           anio-pkey: "xXx"
           anio-cert: "yYY"
