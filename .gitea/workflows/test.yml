@@ -23,7 +23,7 @@ jobs:
         uses: ./.gitea/actions/setup
         with:
           anio-pkey: "xXx"
-          anio-cert: "yYY"
+          anio-cert: ${{ secrets.CERT }}
           anio-registry-token: "llL"
           npm-token: "ooO"
 
